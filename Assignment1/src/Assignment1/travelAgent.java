@@ -14,7 +14,9 @@ public class travelAgent {
 		a.printAvailable("1 June 2021 until 31 August");
 		a.setPrice("RM3000");
 		
-		//System.out.println("Price of the song: Rm"+p.getPrice());
+		System.out.println("The available date for booking is: "+a.getAvailable());
+		System.out.println("The price for the promo is"+a.getPrice());
+		
 		
 	}
 		

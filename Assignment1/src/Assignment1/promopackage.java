@@ -20,7 +20,7 @@ public class promopackage {
     }
     public void printSeason(){
     	promopackage a = new promopackage();
-        System.out.println("Season of the year is : "+a.season);
+        System.out.println("Season of the month is : "+a.season);
     }
 
     
