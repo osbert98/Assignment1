@@ -1,81 +1,39 @@
 package Assignment1;
 
 public class promopackage {
-	
-	
-	public class japanpromo{
-		
+    String placename,	season;
+    String price;
+    private String available;
+    
+    promopackage(){
+        this.placename="California";
+        this.season="Spring";
+     
+    }
+    promopackage(double p){
+        
+    }
+    public void printPlace(){
+        promopackage a = new promopackage();
+        System.out.println();
+        System.out.println("Amazing place we have in promo: "+a.placename);
+    }
+    public void printSeason(){
+    	promopackage a = new promopackage();
+        System.out.println("Season of the year is : "+a.season);
+    }
 
-		
-		String price; String date ;
-		String p;
-		String a;
-		
-		japanpromo(){
-			
-			System.out.println("Our Japan Sakura Season Promotion");
-			this.price="RM2000";
-			this.date= "1 April until 28 April 2021 ";
-			
-		}
-		
-		public void setAirline(String airline) {
-			this.p = airline;
-		}
-		
-		public String getAirline() {
-			return p;
-		}
-		
-		public void setPromo(String promo) {
-			this.a = promo;
-		}
-		
-		public String getPromo() { 
-			return a;
-	
-		}
-		
-		
-		
-	
-	
-	public class switzerpromo{
-		
-		String price; String date;
-		String p;
-		String a;
-		
-		switzerpromo(){
-			
-			System.out.println("Our California Beach sea water surfing promotion ");
-			this.price="RM3000";
-			this.date= "1 June until 31 August 2021 ";
-			
-			
-		}
-		public void setAirline(String airline) {
-			this.p = airline;
-		}
-		
-		public String getAirline() {
-			return p;
-		}
-		
-		public void setPromo(String promo) {
-			this.a = promo;
-		}
-		
-		public String getPromo() { 
-			return a;
-	
-		}
-		
-		
-	}
-
-	
-
-}
-	
+    
+    public void printAvailable(String date){
+        available=date;
+    }
+    public String getAvailable(){
+        return available;
+    }
+    public void setPrice(String newPrice){
+        price=newPrice;
+    }
+    public String getPrice(){
+        return price;
+    }
 }
