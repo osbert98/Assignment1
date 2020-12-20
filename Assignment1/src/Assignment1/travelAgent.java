@@ -4,8 +4,9 @@ public class travelAgent {
 
 	public static void main(String[] args) {
 		
-		promopackage j = new promopackage();
+		bookinginfo b=new bookinginfo("Osbert","Howell","Male","JapanSakuraSeason");
 		
+		System.out.println(b);
 		
 	
 	}
