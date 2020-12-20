@@ -17,7 +17,7 @@ public class bookinginfo {
 	public void setFirstname(String firstname) {
 		this.firstname=firstname;
 	}
-	public void setLastname(String lastN) {
+	public void setLastname(String lastname) {
 		this.lastname=lastname;
 	}
 	public void setPromo(String promo) {
