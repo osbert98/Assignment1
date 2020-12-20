@@ -8,43 +8,44 @@ public class bookinginfo {
 	String promo;
 
 	bookinginfo (String firstname,String lastname,String gender,String promo){
-		this.firstname=firstn;
-		this.lastname=lastN;
+		this.firstname=firstname;
+		this.lastname=lastname;
 		this.gender=gender;
 		this.promo=promo;
 	}
 	
-	public void setFirstname(String firstN) {
-		this.Firstname=firstN;
+	public void setFirstname(String firstname) {
+		this.firstname=firstname;
 	}
 	public void setLastname(String lastN) {
-		this.Lastname=lastN;
+		this.lastname=lastname;
 	}
-	public void setRace(String race) {
-		this.race=race;
+	public void setPromo(String promo) {
+		this.promo=promo;
 	}
 	public void setgend(String gender) {
-		this.Gender=gender;
+		this.gender=gender;
 	}
 	
 	public String getFirstname() {
-		return Firstname;
+		return firstname;
 	}
 	
 	public String getLastname() {
-		return Lastname;
+		return lastname;
 	}
 	public String getGender() {
-		return Gender;
+		return gender;
 	}
-	public String getRace() {
-		return race;
+	public String getPromo() {
+		return promo;
 	}
 	
 	public String toString() {
-		return "Participant name : "+Firstname+" "+Lastname+"\nGender : "+Gender+"\nRace :"+race;
+		return "Booking information  : "+firstname+" "+lastname+"\nGender : "+gender+"\nPromo:"+promo;
 	}
-}
+
+
 	
-	
 }
+
